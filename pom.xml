@@ -76,4 +76,11 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/TomChapple/maven-packages-w-classifiers</url>
+        </repository>
+    </distributionManagement>
 </project>
